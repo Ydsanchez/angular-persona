@@ -5,14 +5,14 @@ import { environment } from '../../enviroments/environments';
 
 export interface Registro {
   id: number;
-  tipoIdentificacion: string;
-  numeroIdentificacion: string;
+  tipo_identificacion: string;
+  numero_identificacion: string;
   nombre1: string;
   nombre2?: string;
   apellido1: string;
   apellido2?: string;
   sexo: string;
-  fechaNacimiento: string;
+  fecha_nacimiento: string;
 }
 
 @Injectable({
